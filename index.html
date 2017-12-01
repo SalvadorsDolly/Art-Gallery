@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script> 
+		$(document).ready(function () {
+  		$(".fancybox").fancybox({
+		    openEffect: 'none',
+		    closeEffect: 'none',
+		    nextEffect: 'none',
+		    prevEffect: 'none',
+		    padding: 0,
+		    margin: [20, 0, 20, 0]
+		  });
+		});
+</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+				<h1 class="logo">Gallery Projects</h1>
+				<nav>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ANIMATION</a></li>
+						<li><a href="#">3D</a></li>
+						<li><a href="#">PAINTING</a></li>
+						<li><a href="#">PROGRAMMING</a></li>
+					</ul>
+				</nav>
+		</div>
+	</header>
+	<section class="tagline">
+  	<div class="container">
+    	<h1>View Projects</h1>
+    </div>
+  </section>
+  <section>
+  	<div class="container">
+  		<h1 id="heading">All Projects</h1>
+  		<ul id="gallery">
+  			<li class="animation"><a class="fancybox fancybox.iframe" data-type="iframe" data-title="The Steam Mech" data-desc="Uses all game-animation skill sets" href="https://www.youtube.com/embed/bquAq2GiuLU"><img src="img/image_01.jpg"></a></li>
+  			<li class="animation"><a class="fancybox fancybox.iframe" data-type="iframe"data-title="" data-desc="" href="https://www.youtube.com/embed/jamde0uJlq0"><img src="img/image_02.jpg"></a></li>
+  			<li class="animation"><a class="fancybox fancybox.iframe" data-type="iframe" data-title="" data-desc="" href="https://www.youtube.com/embed/s2-5wnhmUcI"><img src="img/image_03.jpg"></a></li>
+  			<li class="animation"><a class="fancybox fancybox.iframe" data-type="iframe" data-title="" data-desc="" href="https://www.youtube.com/embed/a94uAfeOMuM"><img src="img/image_04.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/Seattle_web.jpg"><img src="img/image_05.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/IcannotSleepGently_web.jpg"><img src="img/image_06.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/HaloKitty.jpg"><img src="img/image_07.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/The_Collector_01.jpg"><img src="img/image_08.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/Solame_01.jpg"><img src="img/image_09.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/Ophelia3000.jpg"><img src="img/image_010.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/Kyle'sBigAdventure.jpg"><img src="img/image_011.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/The_Fall_of_Icarus.jpg"><img src="img/image_012.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/middleEast.jpg"><img src="img/image_013.jpg"></a></li>
+  			<li class="painting"><a class="fancybox" data-fancybox-type="image" data-title="" data-desc="" href="paintings/BoxTrapOfOpposingParticles.jpg"><img src="img/image_014.jpg"></a></li>
+  		</ul>
+  	</div>
+  </section>
+  <footer>
+  	<p>Copyright 2017, All Rights Reserved</p>
+  </footer>
+ 	<script type="text/javascript" src="js/scripts.js"></script>
+	</body>
+</html>
